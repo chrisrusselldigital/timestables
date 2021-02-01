@@ -10,3 +10,7 @@ Of course it's another excuse to practice some coding.
 - End-to-end product development
 - Demonstrate building a product in an "agile" manner
 - Refresh my testing skills with Jasmine
+
+##Features
+
+[Prioritised Trello board](https://trello.com/b/tvLePftg/times-tables)
