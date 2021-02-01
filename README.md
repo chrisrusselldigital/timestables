@@ -1,6 +1,6 @@
 # Times table game
 
-##Background
+## Background
 
 We've been trying to teach both my kids their multiplication tables. There are plenty of online games but nothing really simple that is in html (most of them seem to be eeky Flash type things).
 
@@ -11,6 +11,6 @@ Of course it's another excuse to practice some coding.
 - Demonstrate building a product in an "agile" manner
 - Refresh my testing skills with Jasmine
 
-##Features
+## Features
 
 [Prioritised Trello board](https://trello.com/b/tvLePftg/times-tables)
