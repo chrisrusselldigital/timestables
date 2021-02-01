@@ -3,16 +3,23 @@
 <head>
   <meta charset="utf-8">
   <title>Times Table Game</title>
+  <link rel="stylesheet" type="text/css" href="tables.css">
 </head>
   <body>
+    <h1>Times tables</h1>
     <p>Enter your answer</p>
     <form id="answer" onSubmit="parseAnswer(); return false;">
-     <p><div id="firstpart"></div><p id="times">x</p><div id="secondpart"></div>
-     <br/>
+
+       <div id="firstpart" class="question"></div>
+       <div id="times" class="question"> x </div>
+       <div id="secondpart" class="question"></div>
+
+     <br class="clearBoth">
       <input type="number" id="MyAnswer" size="2"></input>
-      <input type="submit" name="button" value="Submit your answers"></input>
+      <input type="submit" name="button" value="Submit"></input>
     </form>
-    <p><div id="feedback"></div></p>
+    <br>
+    <div id="feedback"></div>
     <script type="text/javascript" src="tables.js"></script>
   </body>
 </html>
