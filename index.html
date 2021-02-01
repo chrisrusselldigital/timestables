@@ -2,16 +2,17 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Times Table Game4</title>
+  <title>Times Table Game</title>
 </head>
   <body>
     <p>Enter your answer</p>
     <form id="answer" onSubmit="parseAnswer(); return false;">
-      <div id="firstpart"></div> x <div id="secondpart"></div>
-      <input type="number" class="answer" size="2"></input>
+     <p><div id="firstpart"></div><p id="times">x</p><div id="secondpart"></div>
+     <br/>
+      <input type="number" id="MyAnswer" size="2"></input>
       <input type="submit" name="button" value="Submit your answers"></input>
     </form>
+    <p><div id="feedback"></div></p>
     <script type="text/javascript" src="tables.js"></script>
-    <div id="feedback"></div>
   </body>
 </html>
