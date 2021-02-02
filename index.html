@@ -6,19 +6,21 @@
   <link rel="stylesheet" type="text/css" href="tables.css">
 </head>
   <body>
-    <h1>Times tables</h1>
-    <p>Enter your answer</p>
+    <h1>Times tables practice</h1>
     <form id="answer" onSubmit="parseAnswer(); return false;">
 
        <div id="firstpart" class="question"></div>
        <div id="times" class="question"> x </div>
        <div id="secondpart" class="question"></div>
+       <div id="equals" class="question"> = </div>
 
-     <br>
-     <br>
+  <p></p>
       <input type="number" id="MyAnswer" size="2"></input>
       <input type="submit" name="button" value="Submit"></input>
     </form>
+    <div id="button-wrapper">
+    <button id="clear" onClick="nextQuestion();">Next question...</button>
+    </div>
     <br>
     <div id="feedback"></div>
     <script type="text/javascript" src="tables.js"></script>
