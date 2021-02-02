@@ -1,9 +1,11 @@
 h1 {
   font-family: sans-serif;
+  color: red;
 }
 
 body {
   font-family: sans-serif;
+  background-color: turquoise;
 }
 
 div.question {
