@@ -1,6 +1,6 @@
 
-var multiplier = Math.floor(Math.random() * (12 - 1 + 1))
-var multiplicand = Math.floor(Math.random() * (12 - 1 + 1))
+var multiplier = Math.floor(Math.random() * (13 - 1 + 1))
+var multiplicand = Math.floor(Math.random() * (13 - 1 + 1))
 var solution = multiplier * multiplicand;
 document.getElementById("firstpart").innerHTML = multiplier;
 document.getElementById("secondpart").innerHTML = multiplicand;

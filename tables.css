@@ -1,6 +1,9 @@
 h1 {
   font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1.8em;
   color: #9f0dbf;
+
 }
 
 body {
@@ -9,12 +12,43 @@ body {
   font-size: 2em;
 }
 
+label {
+  display: block;
+}
+
 input[type=number] {
-  width: 5%;
-  padding: 10px 8px;
-  margin: 8px 0;
+  width: 60px;
+  height: 40px;
+  display: block;
+  padding: 4px;
+  margin: 7px 0;
   font-size: 1em;
 }
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #8A2BE2;
+  font-size: 1em;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  margin: 4px 2px;
+}
+
+
+/* Removes arrows in number input */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 
 div.question {
   float: left;
