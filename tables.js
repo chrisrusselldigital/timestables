@@ -4,7 +4,7 @@ var multiplicand = Math.floor(Math.random() * (13 - 1 + 1))
 var solution = multiplier * multiplicand;
 document.getElementById("firstpart").innerHTML = multiplier;
 document.getElementById("secondpart").innerHTML = multiplicand;
-
+window.onload = nextQuestion;
 
 function parseAnswer() {
   if (document.getElementById('MyAnswer').value == solution) {
@@ -20,5 +20,9 @@ function parseAnswer() {
 }
 
 function nextQuestion() {
-  location.reload();
+  document.body.onkeyup = function(e){
+      if(e.keyCode == 32){
+        location.reload();
+      }
+  }
 }

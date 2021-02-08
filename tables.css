@@ -3,17 +3,12 @@ h1 {
   font-weight: 500;
   font-size: 1.8em;
   color: #9f0dbf;
-
 }
 
 body {
   font-family: sans-serif;
   background-color: turquoise;
   font-size: 2em;
-}
-
-label {
-  display: block;
 }
 
 input[type=number] {
@@ -25,7 +20,7 @@ input[type=number] {
   font-size: 1em;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
+input[type=button], input[type=submit] {
   background-color: #8A2BE2;
   font-size: 1em;
   color: white;
@@ -33,7 +28,6 @@ input[type=button], input[type=submit], input[type=reset] {
   padding: 14px 20px;
   margin: 4px 2px;
 }
-
 
 /* Removes arrows in number input */
 
@@ -49,12 +43,7 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-
 div.question {
   float: left;
   margin-right: 7px;
-}
-
-.clearBoth {
-  clear:both;
 }

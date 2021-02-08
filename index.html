@@ -9,19 +9,18 @@
     <h1>Times tables practice</h1>
     <form id="answer" onSubmit="parseAnswer(); return false;">
 
-<label>
+
        <div id="firstpart" class="question"></div>
        <div id="times" class="question"> x </div>
        <div id="secondpart" class="question"></div>
        <div id="equals" class="question"> = </div>
-</label>
-  <p></p>
-      <input type="number" id="MyAnswer" size="2"></input>
-      <input type="submit" name="button" value="Submit"></input>
+
+      <input class="question" type="number" id="MyAnswer" size="2" autofocus></input>
+      <input class="question" type="submit" name="button" value="Submit"></input>
     </form>
-    <div id="button-wrapper">
-    <button id="clear" onClick="nextQuestion();">Next question...</button>
-    </div>
+
+    <p>Press spacebar for next question</p>
+
     <br>
     <div id="feedback"></div>
     <script type="text/javascript" src="tables.js"></script>
