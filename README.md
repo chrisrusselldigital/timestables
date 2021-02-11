@@ -11,6 +11,13 @@ Of course it's another excuse to practice some coding.
 - Demonstrate building a product in an "agile" manner
 - Refresh my testing skills with Jasmine
 
-## Features
+## MVP features
+
+- As a user, I need see a random multiplication question, so I can answer it
+- As a user, I need the question to be from any of the 0 - 12 times tables, so that I can provide an answer
+- As a user, I need to be able to submit an answer, so that the game can tell me whether I've got the question correct
+
+
+## Tasks
 
 [Prioritised Trello board](https://trello.com/b/tvLePftg/times-tables)
